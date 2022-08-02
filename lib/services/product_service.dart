@@ -11,11 +11,3 @@ Future<List<Cart>?> getCart() async {
   }
   return carts;
 }
-
-// Future<List<NoteModel?>> readAllNotes() async {
-//   var url = baseURL+getAllURL;
-//   final response = await dio.get(url);
-//   final data = DataModel.fromJson(response.data);
-//   final dataModel = data.data;
-//   return dataModel ?? [];
-// }
